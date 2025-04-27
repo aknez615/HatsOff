@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53f44044ecb7f144c9ebf2d05851e5f3, type: 3}
+  m_Name: CardPlatformPowerup
+  m_EditorClassIdentifier: 
+  duration: 60
+  redPlat: {fileID: 6068380289108035873, guid: b9756b8d0b683004483c9f81b811a571, type: 3}
+  blackPlat: {fileID: 1644282690356322366, guid: bb4c71800f03c0945a274b52333cf99e, type: 3}
+  ghostPlat: {fileID: 2703426387539549429, guid: 7567118352f040c4286462f3427136ed, type: 3}
+  wallLayerMask:
+    serializedVersion: 2
+    m_Bits: 512
+  despawnTimer: 15
+  throwCooldown: 0.5
+  spawnDistance: 8
+  cardVal: 0
